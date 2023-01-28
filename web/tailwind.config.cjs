@@ -8,7 +8,10 @@ module.exports = {
     extend: {
       colors: {
         background: '#1E1E1E'
-      }
+      },
+      gridTemplateRows: {
+        7: 'repeat(7, minmax(0, 1fr))'
+      },
     },
   },
   plugins: [],
